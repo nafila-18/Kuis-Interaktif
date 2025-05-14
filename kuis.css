@@ -1,0 +1,144 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#kuis-container {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+#status-bar {
+    display: flex;
+    justify-content: space-between; /* Menjaga posisi kiri-kanan */
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+#progress-bar-container {
+    width: 120px;
+    height: 10px;
+    background-color: #e0f2f1;
+    border-radius: 5px;
+    position: relative;
+}
+
+#progress-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#soal-status {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+#progress-bar {
+    height: 100%;
+    background-color: #00796b;
+    width: 0%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+#info-status {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+#soal-status {
+    font-size: 1rem;
+}
+
+#timer {
+    background-color: #e57373;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#soal {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#jawaban {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#jawaban button {
+    flex: 1 1 40%;
+    padding: 10px;
+    border: none;
+    background-color: #e0f2f1;
+    color: #00796b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#jawaban button:hover {
+    background-color: #b2dfdb;
+}
+
+#jawaban button.jawaban-benar {
+    background-color: #4CAF50; /* hijau */
+    color: white;
+}
+
+#jawaban button.jawaban-salah {
+    background-color: #f44336; /* merah */
+    color: white;
+}
+
+
+
+#hasil {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#reset {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.
+}
