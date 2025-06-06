@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Kuis</title>
+    <link rel="stylesheet" href="kuis.css">
+</head>
+<body>
+    <div id="kuis-container">
+        <h1>Mini Kuis</h1>
+
+        <div id="status-bar">
+            <div id="progress-bar-wrapper">
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <span id="soal-status">1/5</span>
+            </div>
+            <span id="timer">Waktu: 10s</span>
+        </div>
+
+        <div id="soal"></div>
+        <div id="jawaban"></div>
+        <div id="hasil"></div>
+
+        <button id="reset" style="display: none;">Kembali ke Soal Pertama</button>
+    </div>
+
+    <script src="kuis.js"></script>
+</body>
+</html>
